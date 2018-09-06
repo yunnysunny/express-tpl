@@ -2,9 +2,8 @@
   "name": "express-tpl",
   "version": "0.0.1",
   "description": "An cli tool to create express scaffold",
-  "main": "index.js",
   "bin": {
-    "express-tpl": "index.js"
+    "express-tpl": "main.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
