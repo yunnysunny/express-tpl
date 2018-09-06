@@ -13,7 +13,6 @@
 [node-url]: http://nodejs.org/download/
 
 [![NPM](https://nodei.co/npm/express-tpl.png?downloads=true)](https://nodei.co/npm/node-express-tpl/)  
-A wrapper of logger package , let you wirte log easy.
 
 一个生成 express 项目脚手架的命令行工具。
 
