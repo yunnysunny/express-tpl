@@ -2,9 +2,11 @@ language: node_js
 before_script: 
   - mkdir -p ~/nodeapps
   - rm -rf ~/nodeapps/express-demo
+  - npm install
   - node index.js -d ~/nodeapps -n express-demo
 script:
   - cd ~/nodeapps/express-demo
+  - npm install
   - npm test
 
 node_js:
