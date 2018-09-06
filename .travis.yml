@@ -1,6 +1,7 @@
 language: node_js
 before_script: 
   - mkdir -p ~/nodeapps
+  - mkdir -p ~/log
   - rm -rf ~/nodeapps/express-demo
   - npm install
   - node index.js -d ~/nodeapps -n express-demo
