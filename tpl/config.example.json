@@ -1,0 +1,8 @@
+{
+    "port":7001,
+    "errorLogFile":"d:/log/demo-error.log",
+    "mongoConfig":{
+        "option":{ "useNewUrlParser": true },
+        "url":"mongodb://localhost/tpl"
+    }
+}

@@ -1,0 +1,21 @@
+language: node_js
+before_script: 
+  - mkdir -p ~/nodeapps
+  - rm -rf ~/nodeapps/express-demo
+  - node index.js -d ~/nodeapps -n express-demo
+script:
+  - cd ~/nodeapps/express-demo
+  - npm test
+
+node_js:
+  - '10'
+  - '9'
+  - '8'
+  - '7'
+  - '6'
+
+cache:
+  directories:
+    - "node_modules"
+services:
+  - mongodb
