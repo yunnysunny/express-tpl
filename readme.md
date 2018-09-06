@@ -15,14 +15,13 @@
 [![NPM](https://nodei.co/npm/express-tpl.png?downloads=true)](https://nodei.co/npm/node-express-tpl/)  
 A wrapper of logger package , let you wirte log easy.
 
-An cli tool to create express scaffold.
+一个生成 express 项目脚手架的命令行工具。
 
-
-## Install
+## 安装
 
 npm install express-tpl -g
 
-## Usage
+## 使用
 
 ```
   Usage: express-tpl [options]
@@ -34,3 +33,7 @@ npm install express-tpl -g
     -n, --name [name]      The project name (default: express-tpl)
     -h, --help             output usage information
 ```
+
+## 协议
+
+[MIT](LICENSE)
