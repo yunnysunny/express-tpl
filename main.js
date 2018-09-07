@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const params = require('commander');
 const fs = require('fs');
 const path = require('path');
