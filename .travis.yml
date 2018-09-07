@@ -4,7 +4,7 @@ before_script:
   - mkdir -p ~/log
   - rm -rf ~/nodeapps/express-demo
   - npm install
-  - node index.js -d ~/nodeapps -n express-demo
+  - node main.js -d ~/nodeapps -n express-demo
 script:
   - cd ~/nodeapps/express-demo
   - npm install
