@@ -6,7 +6,7 @@
     "express-tpl": "main.js"
   },
   "scripts": {
-    "release": "npm run release-to-github-with-changelog"
+    "release": "release-to-github-with-changelog"
   },
   "repository": {
     "type": "git",
