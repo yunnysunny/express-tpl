@@ -1,7 +1,7 @@
 const slogger = require('node-slogger');
 const mongoose = require('mongoose');
 const configObj = require('../config.json');
-const settings = require('./lib/settings').init(configObj);
+const settings = require('config-settings').init(configObj);
 
 exports.port = settings.loadNecessaryInt('port');
 
