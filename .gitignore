@@ -3,3 +3,5 @@
 /tpl/package.json
 
 *.log
+/coverage
+/.nyc_output
