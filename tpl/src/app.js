@@ -7,7 +7,7 @@ const {
     slogger,
     port,
 } = require('./config');
-const requestRecordFilter = require('./filters/request_record_filter');
+const requestRecordFilter = require('@yunnysunny/request-logging');
 const {filter: requestValidator} = require('validator-param');
 
 const app = express();
