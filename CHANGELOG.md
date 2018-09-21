@@ -1,3 +1,9 @@
+# v0.4.0
+## 增加
+1. 模板中增加 Makefile 文件用于部署
+2. 模板中增加 pm2 的配置文件 process.example.json
+3. 命令行中参数 -d 指定的目录不存在时会级联创建目录，-a 指定的目录存在时，会退出当前进程
+
 # v0.3.0
 ## 增加
 1. 增加包 [@yunnysunny/request-logging]((https://www.npmjs.com/package/@yunnysunny/request-logging) 依赖
