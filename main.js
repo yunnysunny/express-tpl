@@ -14,19 +14,29 @@ params.version(package.json)
 
 let dst = path.resolve(params.dir);
 if (!fs.existsSync(dst)) {
-    console.warn('The config file %s does not exists.',params.config);
-    process.exit();
+    console.info('The destination file %s does not exists:',dst,'create it');
+    fs.mkdirSync(dst);
 }
 dst = path.join(dst,params.name);
 if (fs.existsSync(dst)) {
-    console.warn('The current folder has exists',dst);
+    console.warn('The current folder has exists, can not create the project in',dst);
+    process.exit();
 }
 
-const tplStr = fs.readFileSync(path.join(__dirname, './tpl/package.json.ejs'),{encoding:'utf-8'});
-const outStr = ejs.render(tplStr,{packageName:params.name});
+function writeTo(tplFile,data,outFile) {
+    const tplStr = fs.readFileSync(path.join(__dirname, tplFile),{encoding:'utf-8'});
+    const outStr = ejs.render(tplStr,data);
+    fs.writeFileSync(path.join(dst,outFile),outStr);
+}
+
+
 const src = path.join(__dirname,'./tpl');
 copydir.sync(src,dst,function(stat,filepath,filename) {
-    if (filename === 'package.json.ejs' || filename === 'package.json') {
+    if (filename === 'package.json.ejs'
+    || filename === 'package.json'
+    || filename === 'config.json'
+    || filename === 'process.json'
+    || filename === 'process.example.json') {
         return false;
     }
     return true;
@@ -35,6 +45,7 @@ copydir.sync(src,dst,function(stat,filepath,filename) {
         return console.error('copy error:',err);
     }
 });
-fs.writeFileSync(path.join(dst,'./package.json'),outStr);
+writeTo('./tpl/package.json.ejs',{packageName:params.name},'./package.json');
+writeTo('./tpl/process.example.json',{packageName:params.name},'./process.example.json');
 
 
