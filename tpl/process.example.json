@@ -1,0 +1,18 @@
+{
+  "apps" : [{
+    "name"        : "<%=packageName%>",
+    "script"      : "./src/bin/www",
+    "instances"   : 1,
+    "exec_mode"   : "cluster",
+    "max_restarts": 5,
+    "watch"       : false,
+    "error_file"  : "/var/log/pm2-error.log",
+    "out_file"    : "/var/log/pm2-out.log",
+    "env": {
+      "NODE_ENV"  : "development"
+    },
+    "env_production" : {
+       "NODE_ENV" : "production"
+    }
+  }]
+}
