@@ -1,3 +1,9 @@
+# v0.4.1
+
+## 修正
+1. 升级 node-slogger 到 [1.0.2](https://github.com/yunnysunny/slogger/blob/master/changelog.md#v102)
+2. 升级 @yunnysunny/request-logging 到 [0.4.0](https://github.com/yunnysunny/request-log/blob/master/CHANGELOG.md#v040)
+
 # v0.4.0
 ## 增加
 1. 模板中增加 Makefile 文件用于部署
