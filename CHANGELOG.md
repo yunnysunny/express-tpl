@@ -1,3 +1,8 @@
+# v0.4.2
+## 修正
+1. 升级 @yunnysunny/request-logging 到 [0.5.0](https://github.com/yunnysunny/request-log/blob/master/CHANGELOG.md#v040)
+2. 修正 -V 参数不打印版本号的问题
+
 # v0.4.1
 ## 修正
 1. 升级 node-slogger 到 [1.0.2](https://github.com/yunnysunny/slogger/blob/master/changelog.md#v102)
