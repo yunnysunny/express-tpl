@@ -6,7 +6,7 @@ const ejs = require('ejs');
 const package = require('./package.json');
 const copydir = require('copy-dir');
 
-params.version(package.json)
+params.version(package.version)
     .option('-d, --dir [directory]', 'The directory to save the project','.')
     .option('-n, --name [name]', 'The project name','express-tpl')
     //.option('-p, --package [pacakge]','The package you want to use')
