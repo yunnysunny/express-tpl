@@ -10,6 +10,7 @@ exports.port = settings.loadNecessaryInt('port');
 const errorFile = settings.loadNecessaryFile('errorLogFile', true);
 
 slogger.init({
+    flushInterval:500,
     logFiles:[
         {category:'error',filename:errorFile}
     ]

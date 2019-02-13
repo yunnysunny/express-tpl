@@ -1,3 +1,7 @@
+# v0.4.3
+## 修正
+1. 日志输出改为延迟打印
+
 # v0.4.2
 ## 修正
 1. 升级 @yunnysunny/request-logging 到 [0.5.0](https://github.com/yunnysunny/request-log/blob/master/CHANGELOG.md#v040)
