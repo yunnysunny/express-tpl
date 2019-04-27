@@ -1,10 +1,14 @@
+# v0.4.4
+## 改进
+1. 升级  @yunnysunny/request-logging 到 [0.5.2](https://github.com/yunnysunny/request-log/blob/master/CHANGELOG.md#v052).
+
 # v0.4.3
 ## 修正
 1. 日志输出改为延迟打印
 
 # v0.4.2
 ## 修正
-1. 升级 @yunnysunny/request-logging 到 [0.5.0](https://github.com/yunnysunny/request-log/blob/master/CHANGELOG.md#v040)
+1. 升级 @yunnysunny/request-logging 到 [0.5.0](https://github.com/yunnysunny/request-log/blob/master/CHANGELOG.md#v050)
 2. 修正 -V 参数不打印版本号的问题
 
 # v0.4.1

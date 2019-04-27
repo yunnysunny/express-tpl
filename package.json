@@ -1,6 +1,6 @@
 {
   "name": "express-tpl",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "An cli tool to create express scaffold",
   "bin": {
     "express-tpl": "main.js"
