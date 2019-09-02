@@ -1,3 +1,10 @@
+# v0.4.5
+## 改进
+1. 升级 @yunnysunny/request-logging 到 [0.7.0](https://github.com/yunnysunny/request-log/blob/master/CHANGELOG.md#v070).
+2. 升级 node-slogger 到 [2.0.0](https://github.com/yunnysunny/slogger/blob/master/changelog.md#v200).
+3. 升级 validator-param 到 [0.4.1](https://github.com/yunnysunny/validator-param/blob/master/changelog.md#v041).
+4. 升级 express 到 [4.17.1](https://github.com/expressjs/express/blob/master/History.md#4171--2019-05-25).
+
 # v0.4.4
 ## 改进
 1. 升级  @yunnysunny/request-logging 到 [0.5.2](https://github.com/yunnysunny/request-log/blob/master/CHANGELOG.md#v052).

@@ -1,12 +1,12 @@
 {
   "name": "express-tpl",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "description": "An cli tool to create express scaffold",
   "bin": {
     "express-tpl": "main.js"
   },
   "scripts": {
-    "release": "git push && release-to-github-with-changelog"
+    "release": "git push && release2hub"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,6 @@
     "ejs": "^2.6.1"
   },
   "devDependencies": {
-    "release-to-github-with-changelog": "^1.2.0"
+    "release2hub": "^2.0.0"
   }
 }
