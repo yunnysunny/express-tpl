@@ -1,3 +1,7 @@
+# v0.4.6
+## 改进
+1. 升级 @yunnysunny/request-logging 到 [0.8.0](https://github.com/yunnysunny/request-log/blob/master/CHANGELOG.md#v080).
+
 # v0.4.5
 ## 改进
 1. 升级 @yunnysunny/request-logging 到 [0.7.0](https://github.com/yunnysunny/request-log/blob/master/CHANGELOG.md#v070).
