@@ -1,7 +1,6 @@
 const mongoose = require('mongoose');
 const fs = require('fs');
 const path = require('path');
-require('../lib/string');
 
 
 const shemasPath = path.join(__dirname, '../schemas');
