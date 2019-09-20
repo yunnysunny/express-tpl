@@ -2,7 +2,9 @@ const mongoose = require('mongoose');
 const fs = require('fs');
 const path = require('path');
 
-
+String.prototype.firstUpperCase = function () {
+    return this[0].toUpperCase() + this.slice(1);
+};
 const shemasPath = path.join(__dirname, '../schemas');
 /**
  * @var {Model} UsersModel
