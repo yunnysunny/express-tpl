@@ -13,7 +13,6 @@ const {filter: requestValidator} = require('validator-param');
 const app = express();
 app.enable('trust proxy');
 
-// view engine setup
 app.set('port', port);
 app.use(requestRecordFilter());
 

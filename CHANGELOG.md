@@ -1,3 +1,7 @@
+# v0.5.0
+## 增加
+1. 增加 deploy 文件夹。
+
 # v0.4.6
 ## 改进
 1. 升级 @yunnysunny/request-logging 到 [0.8.0](https://github.com/yunnysunny/request-log/blob/master/CHANGELOG.md#v080).
