@@ -32,6 +32,9 @@ npm install express-tpl -g
     -n, --name [name]      The project name (default: express-tpl)
     -h, --help             output usage information
 ```
+## 已知问题
+
+1. 由于 npm publish 发布时不能携带 .gitignore 文件，所以在模板中将其重命名为 `rename.gitignore` ，你需要手动将其改名。
 
 ## 协议
 
