@@ -1,7 +1,9 @@
-/node_modules
+node_modules
 /.vscode
 /tpl/package.json
 
 *.log
 /coverage
 /.nyc_output
+/tpl/config.json
+/tpl/process.json
