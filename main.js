@@ -29,14 +29,18 @@ function writeTo(tplFile,data,outFile) {
     fs.writeFileSync(path.join(dst,outFile),outStr);
 }
 
-
+const DIR_FILES_IGNORED = [
+    'package.json.ejs',
+    'package.json',
+    'config.json',
+    'process.json',
+    'process.example.json',
+    'rename.gitignore',
+    'node_modules'
+];
 const src = path.join(__dirname,'./tpl');
 copydir.sync(src,dst,function(stat,filepath,filename) {
-    if (filename === 'package.json.ejs'
-    || filename === 'package.json'
-    || filename === 'config.json'
-    || filename === 'process.json'
-    || filename === 'process.example.json') {
+    if (DIR_FILES_IGNORED.indexOf(filename) !== -1) {
         return false;
     }
     return true;
@@ -47,5 +51,6 @@ copydir.sync(src,dst,function(stat,filepath,filename) {
 });
 writeTo('./tpl/package.json.ejs',{packageName:params.name},'./package.json');
 writeTo('./tpl/process.example.json',{packageName:params.name},'./process.example.json');
+writeTo('./tpl/rename.gitignore',{packageName:params.name},'./.gitignore');
 
 
