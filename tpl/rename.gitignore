@@ -1,6 +1,7 @@
 /node_modules
 config.json
 process.json
+package-lock.json
 /.vscode
 /.nyc_output
 /coverage

@@ -51,7 +51,7 @@ tag:check
 	git tag bak_$(now)
 
 install:check
-	cnpm install
+	yarn install
 
 pull:check
 	git pull origin $(branch)
