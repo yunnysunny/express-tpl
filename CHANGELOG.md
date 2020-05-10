@@ -1,3 +1,9 @@
+# v0.6.0
+## 改进
+1. 将包管理工具由 cnpm 换为 yarn。
+2. 升级依赖包 `@yunnysunny/request-logging` 到 0.11.0，升级 `config-settings` 到 1.0.0。
+
+
 # v0.5.3
 ## 改进
 1. 重命名 gitignore 文件，防止 npm publish 的时候不提交此文件的问题。
