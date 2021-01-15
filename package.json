@@ -6,7 +6,8 @@
     "express-tpl": "main.js"
   },
   "scripts": {
-    "release": "git push && release2hub"
+    "release": "git push && release2hub",
+    "gendep": "node tools/gen_package_ejs.js"
   },
   "repository": {
     "type": "git",

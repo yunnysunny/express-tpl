@@ -589,6 +589,11 @@ negotiator@0.6.2:
   resolved "https://registry.npm.taobao.org/negotiator/download/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
   integrity sha1-/qz3zPUlp3rpY0Q2pkiD/+yjRvs=
 
+node-slogger@2.2.0:
+  version "2.2.0"
+  resolved "https://registry.npm.taobao.org/node-slogger/download/node-slogger-2.2.0.tgz#12cb06d7ddaaa6b2c6c9cb7ee9d206718672ab02"
+  integrity sha1-EssG192qprLGyct+6dIGcYZyqwI=
+
 node-slogger@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npm.taobao.org/node-slogger/download/node-slogger-2.0.0.tgz#5c59c0a0ca3bddb907d78a5ad9fc0c31df4158ec"
