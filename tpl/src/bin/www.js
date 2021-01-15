@@ -49,12 +49,10 @@ function onError(error) {
     switch (error.code) {
     case 'EACCES':
         slogger.error(bind + ' requires elevated privileges');
-        process.exit(1);
-        break;
+        throw error;
     case 'EADDRINUSE':
         slogger.error(bind + ' is already in use');
-        process.exit(1);
-        break;
+        throw error;
     default:
         throw error;
     }
@@ -87,11 +85,8 @@ process.on('uncaughtException', function(err) {
                 slogger.error('发送警告数据时报错',err);
             }
             slogger.info('kill current proccess:'+process.pid);
+            slogger.flush();
             process.exit();
         });
     }
-    
-    
-//    timer.clear();
-
 });
