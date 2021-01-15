@@ -6,7 +6,7 @@
 
 [npm-url]: https://npmjs.org/package/express-tpl
 [travis-image]: https://img.shields.io/travis/yunnysunny/express-tpl.svg?style=flat-square
-[travis-url]: https://travis-ci.org/yunnysunny/express-tpl
+[travis-url]: https://travis-ci.com/yunnysunny/express-tpl
 [david-image]: https://img.shields.io/david/yunnysunny/express-tpl.svg?style=flat-square
 [david-url]: https://david-dm.org/yunnysunny/express-tpl
 [node-image]: https://img.shields.io/badge/node.js-%3E=_6-green.svg?style=flat-square
