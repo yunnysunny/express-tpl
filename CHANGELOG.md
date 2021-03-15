@@ -1,3 +1,9 @@
+# v0.9.0
+
+## 优化
+
+1. 升级 mongoose 到 5.12.0
+2. 升级 @yunnysunny/request-logging 到 0.11.1
 # v0.8.1
 ## 修正
 
