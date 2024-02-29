@@ -1,0 +1,122 @@
+repo_name: yunnysunny/express-tpl
+report_id: 7d0804a90769a7293adb5e65efd9fc49
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:55:21+00:00'
+requested_by: yunnysunny
+provider: github
+branch: master
+detected_tools_count: 9
+tools:
+- name: EJS
+  description: An Embedded JavaScript templating Language
+  website_url: https://ejs.co/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/yunnysunny/express-tpl/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: yunnysunny
+  last_updated_on: 2018-09-06 12:39:39.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/yunnysunny/express-tpl
+  detection_source: Repo Metadata
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  version: 3.6.4
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/yunnysunny/express-tpl/blob/master/tpl/yarn.lock
+  detection_source: ".travis.yml"
+  last_updated_by: yunnysunny
+  last_updated_on: 2018-09-06 12:39:39.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/yunnysunny/express-tpl
+  detection_source: Repo Metadata
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/yunnysunny/express-tpl/blob/master/.travis.yml
+  detection_source: ".travis.yml"
+  last_updated_by: yunnysunny
+  last_updated_on: 2018-09-06 12:39:39.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/yunnysunny/express-tpl/blob/master/tpl/yarn.lock
+  detection_source: tpl/yarn.lock
+  last_updated_by: yunnysunny
+  last_updated_on: 2020-05-10 04:22:34.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/yunnysunny/express-tpl/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: yunnysunny
+  last_updated_on: 2018-09-06 12:39:39.000000000 Z
+- name: commander
+  description: The complete solution for node.js command-line programs
+  package_url: https://www.npmjs.com/commander
+  version: 2.15.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15829/default_50135978d26eba7c09093ceb23b96d522898e4eb.png
+  detection_source_url: https://github.com/yunnysunny/express-tpl/blob/master/tpl/yarn.lock
+  detection_source: package.json
+  last_updated_by: yunnysunny
+  last_updated_on: 2018-09-06 12:39:39.000000000 Z
+- name: copy-dir
+  description: Copy-dir
+  package_url: https://www.npmjs.com/copy-dir
+  version: 0.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17819/default_a53af9d6b5a4c8c6e8d5f8494d76a8d2efd3e660.png
+  detection_source_url: https://github.com/yunnysunny/express-tpl/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: yunnysunny
+  last_updated_on: 2018-09-06 12:39:39.000000000 Z
